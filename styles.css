@@ -1,1 +1,77 @@
 /* Write your CSS here! */
+
+body {
+	margin: 8px;
+	display: block;
+	background-color: silver;
+}
+
+#mainHeading {
+	color: red;
+	margin: 5%;
+	font-size: 50px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 1% 0 0 0;
+	width: 20%;
+	background-color: cadetblue;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	font-size: 25px;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: #000;
+	padding: 30px 16px;
+	text-decoration: none;
+}
+
+div.container {
+	margin-left: 25%;
+	padding: 1%;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+div.polaroid {
+	width: 30%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 (rgba(0, 0, 0, 0.19));
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+div.half-container {
+	text-align: center;
+	padding: 10px 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+	margin: auto;
+}
+
+.center .polaroid {
+	display: flex;
+	display: inline-block;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.funParagraph {
+	color: green;
+}

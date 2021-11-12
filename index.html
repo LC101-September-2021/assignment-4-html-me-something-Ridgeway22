@@ -1,64 +1,97 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link rel="stylesheet" href="./styles.css">
    </head>
    <body>
       <!-- Write your HTML in this file! -->
       
       <header>
-         <h1>Traveling</h1> 
+        
             <nav>
-               <a href="#philippines">Philippines</a> |
-               <a href="#canada">Canada</a> |
-               <a href="#austrila">JavaScript</a> |
-            </nav>
+               <ul>
+               <li><a href="#home">Home</a></li>  
+               <li><a href="#philippines">Philippines</a></li> 
+               <li><a href="#canada">Canada</a></li> 
+               <li><a href="#australia">Australia</a></li>
+               </ul>
+            </nav>      
       </header>
-     <div>
+      
+     <div class="container">
          <main>
+            <h1 id="mainHeading">Traveling</h1> 
          <article>
              Hello, I am Amber Ridgeway native of the Metro-East.  
              I am a horrible writer so bear with me. I did not travel when I was younger due to my parents always working. 
              We did go to Disneyland after my Grandfater won a &dollar;100,000 in the lottery. One of my favorite things to do is find out what Gemstone the country is known for take some home.
              The first Country outside of the United states was Manilla Philliphines. 
          </article>
-         <img src="./images/IMG_1228.JPG" alt="Taal Volcano Boat Ride" srcset="">
+         <div class="polaroid">
+            <img  src="./images/IMG_1228.JPG" alt="Taal Volcano Boat Ride" srcset="">
+            <div class="half-container">
+               <a href="https://en.wikipedia.org/wiki/Taal_Volcano">Taal Wiki Page</a>
+            </div>
+         </div>
      </div>
-     <div>
+     <div class="container">
          <h2 id="philippines">Philliphines</h2>
-         <p>My husband then boyfriend was going to work in the Philliphines to set up a call center and was going to be there a few months.
+         <p class="funParagraph" id="testP">My husband then boyfriend was going to work in the Philliphines to set up a call center and was going to be there a few months.
             I was able to visit him twice during that time frame. The Philliphines is about thirteen hours ahead causing my husband to work ridiculously long hours.
             I had invited my friend Sarah to join me so at leaset I could do things during the day. We vistied the Taal Volcano, Pagsanjan Falls and Old Manilla. 
             The Philliphines island is mostly surrond by water which is great enivorment to have pearl farms.  Philliphines are an important source for Golden South Sea Pearls and White South Sea pearls
  
          </p>
-         <img src="./images/IMG_1927.jpg" alt="Taal Volcano" srcset="">
-         <a href="https://en.wikipedia.org/wiki/Taal_Volcano">Taal Wiki Page</a>
+         <div class="polaroid">
+            <img  src="./images/1927.jpg" alt="Taal Volcano" srcset="">
+            <div class="half-container">
+               <a href="https://en.wikipedia.org/wiki/Taal_Volcano">Taal Wiki Page</a>
+            </div>
+         </div>
      </div>
-     <div>
+     <div class="container">
         <h2 id="canada">Canada</h2>
         <p>
              We we traveling with friends for a wedding in Wisconsin and decided to drive fours to get to Canada.  
              On our way we stopped at the Kakabeka Falls in Provinical Park,which had a great waterfall. We were actually able to visit and amethyst mine in Shuniah Canada.
               We did have to wear mosquito repellent because we were warned of Botflies. I was able to take a few pieces of the ruff amethyst home with me.
         </p>
-        <img src="./images/IMG_2222.jpg" alt="Amethyst Mine" srcset="">
-        <img src="./images/IMG_2281.JPG" alt="Kakabeka Park" srcset="">
-        <a href="https://www.ontarioparks.com/park/kakabekafalls">Kakabeka Falls in Provinical Park</a>
-        <a href="https://www.amethystmine.com/">Amethyst mine</a>
+        <div class="polaroid">
+            <img src="./images/2222.jpg" alt="Amethyst Mine" srcset="">
+            <div class="half-container">
+               <a href="https://www.amethystmine.com/">Amethyst mine</a>
+            </div>
+        </div>
+
+        <div class="polaroid">
+            <img src="./images/22812.JPG" alt="Kakabeka Park" srcset="">
+            <div class="half-container">
+               <a href="https://www.ontarioparks.com/park/kakabekafalls">Kakabeka Falls in Provinical Park</a>
+            </div>
+        </div>
      </div>
-     <div>
+     <div class="container" class ="center">
         <h2 id="australia">Austrlia</h2>
         <p>
              For our honeymoon we went to Austrlia visiting Sydeny and Melborne. We did perfer Sydeny becasue we were able to walk everywhere versus Melobrone
              we had to do a bit of driving.  Austrila is known for it's white opal. It was too far away to drive to an opal mine but we were able to the opal musesum and buy ruff opal. 
-             We were also able to watch little penguins come in from Sea, pet kangroos and koalas, and go to safari tour.         </p>
-        <img src="./images/IMG_1234.JPG" alt="Feeding Kangroo" srcset="">
-        <img src="./images/IMG_0728.JPG" alt="Austrila Zoo Sign" srcset="">
-        <a href="https://www.nationalopal.com/">Opal Musesum</a>
-        <a href="https://www.visitvictoria.com/Regions/Phillip-Island/see-and-do/Nature-and-wildlife/Wildlife-viewing/Penguins">March of Little Penguins</a>
-         <a href="https://wildlifetours.com.au/safari-tour-werribee-open-range-zoo/">Safari Tour</a>
-     </div>
-     <div>
+             We were also able to watch little penguins come in from Sea, pet kangroos and koalas, and go to safari tour.        
+        </p>
+         <div class ="polaroid" >
+            <img  src="./images/1234.JPG" alt="Feeding Kangroo" srcset=""> 
+            <div class="half-container">
+            <a href="https://www.visitvictoria.com/Regions/Phillip-Island/see-and-do/Nature-and-wildlife/Wildlife-viewing/Penguins">March of Little Penguins</a>
+            </div>
+         </div>
+         <div class="polaroid" >
+            <img  src="./images/0728.JPG" alt="Austrila Zoo Sign" srcset="">
+            <div class="half-container">
+            <a href="https://wildlifetours.com.au/safari-tour-werribee-open-range-zoo/">Safari Tour</a>
+            </div>
+         </div>  
+      </div>
+     
+     <div class="container">
         <H2>Conclusions</H2>
         <p>
             I hope once the world is safe to travel freely I can put a lot more countries under my belt. 
